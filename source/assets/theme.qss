@@ -1,0 +1,21 @@
+QMainWindow, QWidget { background-color: #0B1220; color: #E5E7EB; font-family: "Microsoft YaHei UI", "Segoe UI"; font-size: 12px; }
+QFrame#Card, QGroupBox { background-color: #111827; border: 1px solid #263244; border-radius: 8px; }
+QGroupBox { margin-top: 12px; padding: 14px 8px 8px 8px; font-weight: 600; }
+QGroupBox::title { subcontrol-origin: margin; left: 10px; padding: 0 5px; color: #CBD5E1; }
+QLabel#ProductTitle { font-size: 20px; font-weight: 700; color: #F8FAFC; }
+QLabel#Muted { color: #94A3B8; }
+QLabel#Metric { font-size: 24px; font-weight: 700; color: #F8FAFC; }
+QLabel#StateText { font-size: 20px; font-weight: 700; }
+QLabel#ControlFeedback { color: #7DD3FC; font-size: 13px; font-weight: 700; }
+QPushButton { background-color: #1E3A5F; border: 1px solid #31577F; border-radius: 5px; padding: 7px 12px; color: #E5E7EB; }
+QPushButton:hover { background-color: #26527F; }
+QPushButton:pressed { background-color: #16324F; }
+QPushButton:disabled { color: #64748B; background-color: #172033; border-color: #263244; }
+QPushButton#Primary { background-color: #0369A1; border-color: #0EA5E9; font-weight: 700; }
+QPushButton#Primary:hover { background-color: #0284C7; }
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox { background-color: #0F172A; border: 1px solid #334155; border-radius: 4px; padding: 5px; selection-background-color: #0369A1; }
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus { border-color: #38BDF8; }
+QProgressBar { border: 1px solid #263244; border-radius: 4px; background: #0F172A; text-align: center; }
+QProgressBar::chunk { background: #0284C7; border-radius: 3px; }
+QStatusBar { background: #0B1220; color: #94A3B8; }
+QToolTip { background: #172033; color: #E5E7EB; border: 1px solid #475569; }

@@ -1,0 +1,43 @@
+{
+  "data_source": {
+    "output_interval_s": 5.76928006151677e-6,
+    "step_origin": 57103,
+    "time_origin_s": 0.0,
+    "first_row_zero": true,
+    "start_angle_deg": 0.0,
+    "angle_direction": 1
+  },
+  "rms": {
+    "half_window": 50,
+    "downsample": 5,
+    "amplitude_scale_deg": 39.0
+  },
+  "online": {
+    "replay_speed": 0.01,
+    "calibration_windows": 153,
+    "timer_interval_ms": 66
+  },
+  "filter": {
+    "mode": "off",
+    "order": 4,
+    "low_cutoff_fraction_fs": 0.2,
+    "high_cutoff_fraction_nyquist": 0.8
+  },
+  "analysis": {
+    "machine_method": "autocorrelation",
+    "window_size": 1024,
+    "overlap_percent": 50,
+    "threshold": 3.0,
+    "trigger_windows": 3,
+    "release_windows": 5,
+    "release_ratio": 0.7,
+    "minimum_probes": 2,
+    "wavelet": "db4",
+    "wavelet_level": 4,
+    "detail_level": 2,
+    "entropy_order": 5,
+    "entropy_delay": 1,
+    "min_lag": 2,
+    "max_lag": 200
+  }
+}
