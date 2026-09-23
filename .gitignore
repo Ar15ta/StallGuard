@@ -1,0 +1,14 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.venv/
+venv/
+
+# 构建与打包产物（本仓库只发布源码与演示数据，不含 exe）
+source/build/
+source/dist/
+
+# 运行时日志与导出结果
+*.log
